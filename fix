@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PrivateChat — Private Android Chat</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, Arial, sans-serif; color: #172b3a;
+      background: #f4f8fc;
+    }
+    main { width: min(900px, 92%); margin: 50px auto; }
+    .hero, .card {
+      background: white; border-radius: 22px; padding: 30px;
+      box-shadow: 0 10px 35px #19324a12; margin-bottom: 20px;
+    }
+    .hero { background: linear-gradient(135deg, #e6f1ff, white); }
+    h1 { font-size: clamp(36px, 8vw, 64px); margin: 8px 0; }
+    h2 { margin-top: 0; }
+    p { line-height: 1.65; color: #526575; }
+    .tag { color: #1769d2; font-weight: 700; }
+    .code {
+      display: inline-block; padding: 12px 18px; border-radius: 12px;
+      background: #edf4ff; color: #1769d2; font-weight: 700;
+    }
+    footer { text-align: center; color: #738392; padding: 18px; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="tag">ANDROID PROJECT · VERSION 1</p>
+      <h1>PrivateChat</h1>
+      <p>दो Android फोन के बीच Room Code से सीधी, निजी टेक्स्ट चैट।</p>
+      <span class="code">No account · Direct connection · Encrypted messages</span>
+    </section>
+
+    <section class="card">
+      <h2>कैसे कनेक्ट करें</h2>
+      <p>एक फोन पर room शुरू करें। दूसरा फोन host का IP address और Room Code डालकर जुड़ता है। एक ही Wi‑Fi पर यह सबसे आसानी से काम करता है।</p>
+    </section>
+
+    <section class="card">
+      <h2>इंटरनेट की सीमा</h2>
+      <p>यह Android ऐप है, वेबसाइट पर चलने वाली चैट नहीं। इंटरनेट से सीधा कनेक्शन तभी बनेगा जब host फोन नेटवर्क से पहुँच योग्य हो। ऐप कोई relay server इस्तेमाल नहीं करता।</p>
+    </section>
+
+    <section class="card">
+      <h2>Android ऐप चलाएँ</h2>
+      <p>इस repository का Android project Android Studio में खोलकर APK build करें। यह GitHub Pages पेज केवल प्रोजेक्ट का परिचय है; यहाँ से चैट नहीं की जा सकती।</p>
+    </section>
+
+    <footer>PrivateChat · Android app project</footer>
+  </main>
+</body>
+</html>
